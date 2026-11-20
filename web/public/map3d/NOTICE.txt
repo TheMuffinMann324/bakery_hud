@@ -1,0 +1,14 @@
+3D minimap renderer by Geckomacabre, from GTA-VI-Inspired-HUD-for-FiveM.
+Map geometry and ground survey by loneeps (@moddims), used in the FiveM port with their permission.
+The accompanying blip atlas uses GTA V blip artwork sourced from the Cfx.re documentation.
+
+Upstream revision b5de49845c5ffec6e209f18691c535f59f02676f
+https://github.com/Geckomacabre/GTA-VI-Inspired-HUD-for-FiveM/tree/b5de49845c5ffec6e209f18691c535f59f02676f/resources/vice_hud
+https://www.gta5-mods.com/scripts/gtavi-minimap-3d-buildings-legacy-enhanced
+
+Bakery HUD packages map3d.js as renderer.js and adapts its blip draw pass to keep
+markers above buildings, retain sprite and color data, and draw full sprite batches.
+The canvas uses subpixel layout dimensions to align the painted map to the HUD.
+Bakery HUD can draw the map badge in the shared overlay for both radar modes.
+The map data and artwork files are unchanged.
+This directory carries the upstream CC BY-NC-SA 4.0 license in LICENSE.txt.
